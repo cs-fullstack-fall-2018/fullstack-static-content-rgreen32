@@ -1,0 +1,1 @@
+# fullstack-static-content

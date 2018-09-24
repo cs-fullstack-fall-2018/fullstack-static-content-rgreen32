@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var path    = require("path");
+var path  = require("path");
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -23,5 +23,7 @@ router.get('/band', function(req, res, next) {
 router.get('/food', function(req, res, next) {
     res.sendFile(path.join(__dirname+'/../public/food.html'))
 });
+
+
 
 module.exports = router;
